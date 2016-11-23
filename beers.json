@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Get Lucky",
+    "type": "Red India Pale Ale",
+    "image": "assets/images/get_lucky.jpg",
+    "description": "Vår tolkning av en amerikansk IPA. Djupröd i färgen, medelstor beska. Nelson Sauvin spelar förstafiolen, malten håller sig i bakgrunden.",
+    "abv": 6.9,
+    "ibu": 85
+  },
+  {
+    "name": "Transporter Stout",
+    "type": "Imperial Stout",
+    "image": "assets/images/transporter.jpg",
+    "description": "Vår kraftfulla stout med mycket choklad- och kaffetoner. Vann guld på Porterfestivalen i Göteborg 2013, och blev en av topp fem bästa öl i Umeåguidens stora öl-test.",
+    "abv": 7.8,
+    "ibu": 80
+  },
+  {
+    "name": "Dubbelpipa",
+    "type": "Double India Pale Ale",
+    "image": "assets/images/hagelbrak.jpg",
+    "description": "Alkohol och humle i en ohelig kombination. Kroppen kommer från alkoholen som balanseras upp av rikliga givor Citra och Amarillo.",
+    "abv": 9.5,
+    "ibu": 120,
+    "systembolagetId": 3086303
+  },
+  {
+    "name": "41337",
+    "type": "Session Pale Ale",
+    "image": "assets/images/41337.jpg",
+    "description": "En lite, enligt Bryggverket, svagare öl med hög hinkability utan att hålla igen på smak och doft, full av Mosaic-humle. En av topp fem bästa öl i Umeåguidens stora öl-test.",
+    "abv": 5.1,
+    "ibu": 30,
+    "systembolagetId": 3054003
+  },
+  {
+    "name": "Janne Shuffle",
+    "type": "Modern Lager",
+    "image": "assets/images/janne-shuffle.jpg",
+    "description": "Bryggverkets version av en lager. Fräsch och fruktig med mängder av Simcoe-humle och en shuffle av tysk och tjeckisk jäst. Ett samarbete med Janne Schaffer där Lasse Åberg står för motivet på etiketten. Tre kronor per flaska går till <a href=\"http://bjornjsonlindh.se/json-stipendiet/\">J:son Lindh-stipendiet</a>.",
+    "abv": 5.1,
+    "ibu": 35,
+    "systembolagetId": 3069603
+  }
+]
