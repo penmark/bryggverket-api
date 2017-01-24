@@ -1,0 +1,22 @@
+image: node:latest
+
+before_script:
+- npm install --silent
+
+build prod:
+  stage: build
+  script:
+  - npm run tsc
+
+deploy:
+  stage: deploy
+  dependencies:
+  - build prod
+  script:
+  - npm run tsc
+  - cp -r package.json node_modules bin /deployments/bryggverket-api
+  environment:
+    name: production
+    url: https://api.bryggverket.se
+  when: manual
+

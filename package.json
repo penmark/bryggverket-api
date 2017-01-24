@@ -6,9 +6,12 @@
   "scripts": {
     "dev": "nf -j Procfile.dev start",
     "start": "nf start",
-    "postinstall": "tsc"
+    "tsc": "tsc",
+    "postinstall": "npm run tsc"
   },
-  "author": "",
+  "author": "Pontus Enmark <pontus@bryggverket.se>",
+  "repository": "https://gitlab.com/bryggarn/bryggverket-api",
+  "private": true,
   "license": "ISC",
   "devDependencies": {
     "@types/cors": "0.0.33",
