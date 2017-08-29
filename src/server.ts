@@ -4,12 +4,6 @@ import { config } from './config'
 import * as fs from 'fs'
 
 const mongoOptions = {
-  server: {
-    sslValidate: true,
-    sslCA: [fs.readFileSync(config.MONGO_SSL_CA)],
-    sslKey: fs.readFileSync(config.MONGO_SSL_KEY),
-    sslCert: fs.readFileSync(config.MONGO_SSL_KEY)
-  },
   user: config.MONGO_USER,
   pass: config.MONGO_PASS
 }
